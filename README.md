@@ -1,4 +1,4 @@
-# A Search
+# A* Search
 
 The A * algorithm is an improved version of the Dijkstra algorithm. While in Dijkstra it searches for the smallest path among all possibilities, the algorithm of A * does a search giving preference to a path that, in relation to the destination, will have the shortest distance. In Dijkstra, he may end up going further if the neighbor has the slightest path to himself. In A *, if the neighbor that has the smallest path in relation to the current point is distancing itself from the destination, the algorithm will prefer another neighbor, even if in relation to the present one this neighbor has a greater distance but has the smallest distance between it and fate among the given possibilities.
 
